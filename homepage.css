@@ -46,13 +46,13 @@ table {margin-left:-8px; margin-right:-8px; width:100%; margin-bottom:-1%; align
 
 .hr7 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif'); margin-top:-.15%;}
 
-.button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.6; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
+.button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.75; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
 
 .buttoncrt {background-color:#000000; padding:6px 6px; color:#ffff33; opacity:0.6; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #ff66ff; margin-left:-.5px; margin-bottom:1px; margin-top:-1.75%; font-family:Monospace; cursor:pointer;}
 
 .blank {}
 
-.button1-1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.6; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
+.button1-1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.75; font-size:175%; width:300px; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
 
 .link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
 
@@ -64,7 +64,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .buttoncrt:hover {opacity:1.0; cursor:pointer;}
 
-.dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:0.8; font-size:175%; width:96.5%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
+.dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:0.75; font-size:175%; width:96.5%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
 
 .dtb:hover {opacity:1.0; cursor:pointer;}
 
@@ -89,11 +89,11 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 #current-time, #total-time {color:#ffffff;
 }
-.loop-button {background-color:#000000; color:#dddddd; opacity:0.6; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.5%; margin-left:.5px; font-family:Monospace; cursor:pointer;}
+.loop-button {background-color:#000000; color:#dddddd; opacity:0.75; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.5%; margin-left:.5px; font-family:Monospace; cursor:pointer;}
 
-.p-p-button {background-color:#000000; color:#dddddd; opacity:0.6; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.5%; margin-right:.5px; font-family:Monospace; cursor:pointer;}
+.p-p-button {background-color:#000000; color:#dddddd; opacity:0.75; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.5%; margin-right:.5px; font-family:Monospace; cursor:pointer;}
 
-.button2 {background-color:#000000; color:#dddddd; opacity:0.6; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; font-family:Monospace; cursor:pointer;}
+.button2 {background-color:#000000; color:#dddddd; opacity:0.75; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; font-family:Monospace; cursor:pointer;}
 
 .button2:hover {opacity:1.0; cursor:pointer;}
 
