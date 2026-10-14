@@ -1,5 +1,5 @@
 body {background-image:url('floodbasin3.jpg'); background-size:cover; background-repeat:no-repeat; color:#72FF13; font-family:monospace; text-align:center;}
-.p1 {color:#000000; font-family:monospace; text-align:center; font-size:150%;}
+.p1 {color:#000000; font-family:monospace; text-align:center; font-size:150%; text-shadow:2px 2px #ffffff;}
 th, td {border:6px ridge #bf00ff; border-radius:12px; text-align:center; margin-left:auto; margin-right:auto; background-color:#232323;}
 h1 {color:#fff600; text-shadow: 3px 3px #ff63c7; font-size:400%; font-family:Courier New; text-align:center; border:dashed 5px #ff63c7; border-radius:12px; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#fff600; outline-offset:3px;}
 div {text-align:center;}
