@@ -91,7 +91,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .p-p-button:hover {opacity:1.0; cursor:pointer;}
 
-.dropbtn {background-color:#000000; color:#dddddd; opacity:0.8; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-top:2.4%; margin-bottom:.2%; font-family:Monospace; cursor:pointer;}
+.dropbtn {background-color:#000000; color:#dddddd; opacity:0.75; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-top:2.5%; margin-bottom:.2%; font-family:Monospace; cursor:pointer;}
 
 .dropbtn:hover, .dropbtn:focus {opacity:1.0; cursor:pointer;}
 
