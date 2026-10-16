@@ -26,6 +26,14 @@ var MP3Buttons1 = document.querySelector('#MP3Buttons16').onclick = () => {docum
 var MP3Buttons1 = document.querySelector('#MP3Buttons17').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3ButtonsFUH').onclick = () => {document.getElementById('MP3Audio').src='./fuhhh.mp3'};
 var Buttonscrton = document.querySelector('#Buttonscrton').onclick = () => {Togglecrt()};
+var D4Button = document.querySelector('#ButtonsD4').onclick = () => {D4Generate()};
+var D6Button = document.querySelector('#ButtonsD6').onclick = () => {D6Generate()};
+var D8Button = document.querySelector('#ButtonsD8').onclick = () => {D8Generate()};
+var D10Button = document.querySelector('#ButtonsD10').onclick = () => {D10Generate()};
+var D12Button = document.querySelector('#ButtonsD12').onclick = () => {D12Generate()};
+var D20Button = document.querySelector('#ButtonsD20').onclick = () => {D20Generate()};
+var D100Button = document.querySelector('#ButtonsD100').onclick = () => {D100Generate()};
+var trueD100Button = document.querySelector('#Buttons-trueD100').onclick = () => {trueD100Generate()};
 //End Buttons
 //Buttons Functions
 function HomeButton() {document.getElementById('Pages').src='./index4'}
@@ -39,6 +47,14 @@ function LinuxguideButton() {document.getElementById('Pages').src='https://autum
 function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("blank"); element.classList.add("crt");}
 function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
 function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}}
+function D4Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 4) + 1;}
+function D6Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 6) + 1;}
+function D8Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 8) + 1;}
+function D10Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 10) + 1;}
+function D12Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 12) + 1;}
+function D20Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 20) + 1;}
+function D100Generate() {document.getElementById("Rollresults").innerHTML = Math.floor((Math.random() * 10) + 1) * 10;}
+function trueD100Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 100) + 1;}
 //End Buttons Functions
 //iframe fade in
 const PagesIframe = document.getElementById('Pages');
