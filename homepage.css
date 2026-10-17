@@ -38,7 +38,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .hr6 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:.1%; margin-bottom:2.4%;}
 
-.hr7 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif'); margin-top:-1%; margin-bottom:1.8%;}
+.hr7 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif'); margin-bottom:1.8%;}
 
 .hr8 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:2%; margin-bottom:0%;}
 
@@ -117,7 +117,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
   width: 0;
   height: 100%;
   background-color: #4caf50;
-  margin-bottom:-15px;
+  margin-bottom:-20px;
 }
 
 #current-time, #total-time {color:#ffffff;
