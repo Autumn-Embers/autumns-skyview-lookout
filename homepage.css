@@ -117,7 +117,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
   width: 0;
   height: 100%;
   background-color: #4caf50;
-  margin-bottom:-20px;
+  margin-bottom:-25px;
 }
 
 #current-time, #total-time {color:#ffffff;
