@@ -94,7 +94,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .button1-1:hover {opacity:1.0; cursor:pointer;}
 
-.buttoncrt:hover {background-color:rgba(0,0,0,1.0); cursor:pointer;}
+.buttoncrt:hover {background-color:rgba(0,0,0,1.0);  background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
 .dtb {list-style-type:none; background-color:#000000; padding:6px 6px; color:#00674F; opacity:0.8; font-size:175%; width:97%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
 
