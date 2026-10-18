@@ -46,21 +46,21 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .buttoncrt {color:rgba(0,0,0,0); opacity:1.0; padding:6px 6px; color:#ffff33; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #ff66ff; margin-left:-.5px; margin-bottom:1px; margin-top:-1.75%; font-family:Monospace; cursor:pointer;}
 
-.Dice-button1 {width:25%; opacity:0.8; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1 {width:25%; opacity:0.75; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-1 {width:25%; opacity:0.8; background-color:#0000e6; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-1 {width:25%; opacity:0.75; background-color:#0000e6; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-2 {width:25%; opacity:0.8; background-color:#7a0099; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-2 {width:25%; opacity:0.75; background-color:#7a0099; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-3 {width:25%; opacity:0.8; background-color:#00802b; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-3 {width:25%; opacity:0.75; background-color:#00802b; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button2 {width:33.3%; opacity:0.8; background-color:#ffff00; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2 {width:33.3%; opacity:0.75; background-color:#ffff00; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button2-1 {width:33.4%; opacity:0.8; background-color:#ff9900; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2-1 {width:33.4%; opacity:0.75; background-color:#ff9900; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button2-2 {width:33.3%; opacity:0.8; background-color:#ff80ff; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2-2 {width:33.3%; opacity:0.75; background-color:#ff80ff; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button3 {width:100%; opacity:0.8; background-color:#000000; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button3 {width:100%; opacity:0.75; background-color:#000000; color:#ffffff; border:ridge 3px #cccccc;}
 
 .Dice-button1:hover {opacity:1.0; cursor:pointer;}
 
