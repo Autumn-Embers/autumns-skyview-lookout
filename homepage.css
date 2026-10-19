@@ -169,11 +169,11 @@ background-color:#ff5500;
 
 a:hover, a:active {opacity:1.0; cursor:pointer;}
 
-.button1:hover {background-color:rgba(20,20,20,0.5); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
+.button1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
 
-.button1-1:hover {background-color:rgba(20,20,20,0.5); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
+.button1-1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
 
-.buttoncrt:hover {background-color:rgba(0,0,0,0.5); transform:scale(0.95); border-radius:15px; background-image:url('static.gif'); background-size:fill; cursor:pointer;}
+.buttoncrt:hover {background-color:rgba(0,0,0,0.75); transform:scale(0.95); border-radius:15px; background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
 .dtb {list-style-type:none; background-color:transparent; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.2%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
 
