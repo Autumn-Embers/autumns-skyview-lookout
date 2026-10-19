@@ -52,45 +52,45 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .button1-1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
 
-.button1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
+.button1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.1; cursor:pointer;}
 
-.button1-1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
+.button1-1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.1; cursor:pointer;}
 
 .buttoncrt:hover {background-color:rgba(0,0,0,0.75); transform:scale(0.95); border-radius:15px; background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
 .dtb {list-style-type:none; background-color:transparent; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.2%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
 
-.Dice-button1 {width:25%; opacity:0.75; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-1 {width:25%; opacity:0.75; background-color:#0000e6; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-1 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; background-color:#0000e6; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-2 {width:25%; opacity:0.75; background-color:#7a0099; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-2 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; background-color:#7a0099; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-3 {width:25%; opacity:0.75; background-color:#00802b; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-3 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; background-color:#00802b; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button2 {width:33.3%; opacity:0.75; background-color:#ffff00; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2 {transition:border-radius 0.2s ease; transform:0.2s; width:33.3%; opacity:1.0; background-color:#ffff00; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button2-1 {width:33.4%; opacity:0.75; background-color:#ff9900; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2-1 {transition:border-radius 0.2s ease; transform:0.2s; width:33.4%; opacity:1.0; background-color:#ff9900; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button2-2 {width:33.3%; opacity:0.75; background-color:#ff80ff; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2-2 {transition:border-radius 0.2s ease; transform:0.2s; width:33.3%; opacity:1.0; background-color:#ff80ff; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button3 {width:100%; opacity:0.75; background-color:#000000; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button3 {transition:border-radius 0.2s ease; transform:0.2s; width:100%; opacity:1.0; background-color:#000000; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1:hover {opacity:1.0; cursor:pointer;}
+.Dice-button1:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
-.Dice-button1-1:hover {opacity:1.0; cursor:pointer;}
+.Dice-button1-1:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
-.Dice-button1-2:hover {opacity:1.0; cursor:pointer;}
+.Dice-button1-2:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
-.Dice-button1-3:hover {opacity:1.0; cursor:pointer;}
+.Dice-button1-3:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
-.Dice-button2:hover {opacity:1.0; cursor:pointer;}
+.Dice-button2:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
-.Dice-button2-1:hover {opacity:1.0; cursor:pointer;}
+.Dice-button2-1:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
-.Dice-button2-2:hover {opacity:1.0; cursor:pointer;}
+.Dice-button2-2:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
-.Dice-button3:hover {opacity:1.0; cursor:pointer;}
+.Dice-button3:hover {opacity:1.1; border-radius:15px; cursor:pointer;}
 
 .Dice-results {margin-top:5px; margin-left:-.5px; width:60px; height:60px; background-color:#ffffff; border:solid 7px #777777; border-radius:50%;}
 
