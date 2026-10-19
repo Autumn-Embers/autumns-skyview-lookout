@@ -169,9 +169,9 @@ background-color:#ff5500;
 
 a:hover, a:active {opacity:1.0; cursor:pointer;}
 
-.button1:hover {background-color:rgba(0,0,0,0.75); cursor:pointer;}
+.button1:hover {background-color:rgba(0,0,0,0.75); opacity:1.0; cursor:pointer;}
 
-.button1-1:hover {background-color:rgba(0,0,0,0.75); cursor:pointer;}
+.button1-1:hover {background-color:rgba(0,0,0,0.75); opacity:1.0; cursor:pointer;}
 
 .buttoncrt:hover {background-color:rgba(0,0,0,0.5);  background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
