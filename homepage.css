@@ -50,6 +50,16 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .buttoncrt {transition:border-radius 0.2s ease; transform:0.2s; background-color:rgba(0,0,0,0); opacity:1.0; padding:6px 6px; color:#ffff33; font-size:175%; width:99.9%; text-align:center; display:inline-block; border:ridge 1px #ff66ff; margin-left:-.5px; margin-bottom:1px; margin-top:-1.75%; font-family:Monospace; cursor:pointer;}
 
+.button1-1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
+
+.button1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
+
+.button1-1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
+
+.buttoncrt:hover {background-color:rgba(0,0,0,0.75); transform:scale(0.95); border-radius:15px; background-image:url('static.gif'); background-size:fill; cursor:pointer;}
+
+.dtb {list-style-type:none; background-color:transparent; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.2%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
+
 .Dice-button1 {width:25%; opacity:0.75; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
 
 .Dice-button1-1 {width:25%; opacity:0.75; background-color:#0000e6; color:#ffffff; border:ridge 3px #cccccc;}
@@ -163,20 +173,6 @@ background-color:#ff5500;
 
 .blank {}
 
-.button1-1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
-
-.link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
-
-a:hover, a:active {opacity:1.0; cursor:pointer;}
-
-.button1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
-
-.button1-1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.25; cursor:pointer;}
-
-.buttoncrt:hover {background-color:rgba(0,0,0,0.75); transform:scale(0.95); border-radius:15px; background-image:url('static.gif'); background-size:fill; cursor:pointer;}
-
-.dtb {list-style-type:none; background-color:transparent; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.2%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
-
 .audioplayer {width:95%; text-align:center; padding:6px 6px; color:#9B111E; background-color:#000000; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer; align-content:center;}
 
 .controls {
@@ -221,6 +217,10 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 .dropdown-content .button2 {list-style-type: none; background-color:#000000; padding:6px 6px; color:#dddddd; opacity:0.7; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; font-family:Monospace; cursor:pointer;}
 
 .dropdown-content .button2:hover {opacity:1.0; cursor:pointer;}
+
+.link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
+
+a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .show {display:block;}
 
