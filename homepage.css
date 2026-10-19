@@ -175,7 +175,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .buttoncrt:hover {background-color:rgba(0,0,0,0.5);  background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
-.dtb {list-style-type:none; background-color:none; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:95%; min-height:5%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
+.dtb {list-style-type:none; background-color:none; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:295px; min-height:5%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
 
 .audioplayer {width:95%; text-align:center; padding:6px 6px; color:#9B111E; background-color:#000000; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer; align-content:center;}
 
