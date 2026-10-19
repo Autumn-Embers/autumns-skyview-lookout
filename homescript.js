@@ -34,6 +34,22 @@ var D12Button = document.querySelector('#ButtonsD12').onclick = () => {D12Genera
 var D20Button = document.querySelector('#ButtonsD20').onclick = () => {D20Generate()};
 var D100Button = document.querySelector('#ButtonsD100').onclick = () => {D100Generate()};
 var trueD100Button = document.querySelector('#Buttons-trueD100').onclick = () => {trueD100Generate()};
+var CalcClearButton = document.querySelector('#calc-clear').onclick = () => {clearDisplay()};
+var CalcDivideButton = document.querySelector('#calc-divide').onclick = () => {appendOperation('/')};
+var CalcMultiplyButton = document.querySelector('#calc-multiply').onclick = () => {appendOperation('*')};
+var CalcMinusButton = document.querySelector('#calc-minus').onclick = () => {appendOperation('-')};
+var CalcPlusButton = document.querySelector('#calc-plus').onclick = () => {appendOperation('+')};
+var CalcEqualsButton = document.querySelector('#calc-equals').onclick = () => {calculate()};
+var Calc0Button = document.querySelector('#calc-0').onclick = () => {appendNumber('0')};
+var Calc1Button = document.querySelector('#calc-1').onclick = () => {appendNumber('1')};
+var Calc2Button = document.querySelector('#calc-2').onclick = () => {appendNumber('2')};
+var Calc3Button = document.querySelector('#calc-3').onclick = () => {appendNumber('3')};
+var Calc4Button = document.querySelector('#calc-4').onclick = () => {appendNumber('4')};
+var Calc5Button = document.querySelector('#calc-5').onclick = () => {appendNumber('5')};
+var Calc6Button = document.querySelector('#calc-6').onclick = () => {appendNumber('6')};
+var Calc7Button = document.querySelector('#calc-7').onclick = () => {appendNumber('7')};
+var Calc8Button = document.querySelector('#calc-8').onclick = () => {appendNumber('8')};
+var Calc9Button = document.querySelector('#calc-9').onclick = () => {appendNumber('9')};
 //End Buttons
 //Buttons Functions
 function HomeButton() {document.getElementById('Pages').src='./index4'}
@@ -159,3 +175,14 @@ loopButton.addEventListener("click", () => {
     }
 });
 //End audio player Function
+//Calc Functions
+let currentInput = ''; let currentOperation = ''; let previousInput = '';
+function appendNumber(number) {currentInput += number; document.getElementById('display').value = `${previousInput} ${currentOperation} ${currentInput}`;}
+function appendOperation(operation) {if (currentInput === '') return; if (previousInput !== '') {calculate();}
+currentOperation = operation; previousInput = currentInput; currentInput = ''; document.getElementById('display').value = `${previousInput} ${currentOperation}`;}
+function calculate() {if (previousInput === '' || currentInput === '') return; let result; let prev = parseFloat(previousInput); let current = parseFloat(currentInput);
+switch (currentOperation) {case '+': result = prev + current; break; case '-': result = prev - current; break; case '*': result = prev * current; break; case '/': if (current === 0) {alert("Cannot divide by zero"); return;}
+result = prev / current; break; default: return;}
+currentInput = result.toString(); currentOperation = ''; previousInput = ''; document.getElementById('display').value = currentInput;}
+function clearDisplay() {currentInput = ''; previousInput = ''; currentOperation = ''; document.getElementById('display').value = '';}
+//End Calc Functions
