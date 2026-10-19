@@ -221,8 +221,7 @@ a:hover, a:active {opacity:1.0; cursor:pointer;}
 
 .show {display:block;}
 
-/* CRT filter
-*/
+/*CRT filter*/
 @keyframes flicker {
   0% {
     opacity: 0.27861;
