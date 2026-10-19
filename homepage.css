@@ -169,11 +169,11 @@ background-color:#ff5500;
 
 a:hover, a:active {opacity:1.0; cursor:pointer;}
 
-.button1:hover {transform:scale(1.25); opacity:1.0; cursor:pointer;}
+.button1:hover {background-color:rgba(20,20,20,0.5); transform:scale(1.25); opacity:1.0; cursor:pointer;}
 
 .button1:active {transform:scale(0.95); opacity:1.0;}
 
-.button1-1:hover {transform:scale(1.25); opacity:1.0; cursor:pointer;}
+.button1-1:hover {background-color:rgba(20,20,20,0.5); transform:scale(1.25); opacity:1.0; cursor:pointer;}
 
 .button1-1:active {transform:scale(0.95); opacity:1.0;}
 
