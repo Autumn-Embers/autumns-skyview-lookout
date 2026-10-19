@@ -26,6 +26,8 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .div5 {display:flex; align-content:center; justify-content:center; width:300px; border:ridge 3px #cccccc; background-color:none; font-size:150%; color:#bf00ff; margin-top:-1.5%; margin-bottom:0px;}
 
+.div6 {display:flex; align-content:center; justify-content:center; border:ridge 3px #dddddd; background-color:none; font-size:150%; color:#ff0000; text-align:center; margin-top:1px; margin-bottom:1.5px;}
+
 .hr1 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 
 .hr2 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
@@ -41,6 +43,8 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .hr7 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif'); margin-top:-16px; margin-bottom:1.8%;}
 
 .hr8 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:2%; margin-bottom:0%;}
+
+.hr9 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:.5px; margin-bottom:0%;}
 
 .button1 {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.75; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
 
@@ -81,6 +85,78 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .Dice-results {margin-top:5px; margin-left:-.5px; width:60px; height:60px; background-color:#ffffff; border:solid 7px #777777; border-radius:50%;}
 
 .Dice-results-text {text-align:center; margin-left:-.5px; vertical-align:middle; color:#000000; font-size:150%;}
+
+.calc {
+  width:295px;
+  background-color:#202020;
+  border-radius:15px;
+  box-shadow:0 8px 16px rgba(0, 0, 0, 0.1);
+  padding:20px;
+  margin-right:.5px;
+}
+
+.calc-display {
+  width:92.5%;
+  height:50px;
+  text-align:right;
+  font-size:1.5rem;
+  padding:10px;
+  margin-bottom:20px;
+  border:none;
+  background-color:#bdbdbd;
+  border-radius:8px;
+  color:#333;
+}
+
+.calc-buttons {
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:10px;
+}
+
+.calc-button {
+background-color:#3385ff;
+border:none;
+font-size:1.5rem;
+padding:20px;
+cursor:pointer;
+border-radius:10px;
+transition:background-color 0.3s, transform 0.2s;
+color:white;
+}
+
+.calc-button:hover {
+background-color:#0066ff;
+transform:scale(1.1);
+}
+
+.calc-button:active {
+transform:scale(0.95);
+}
+
+.calc-button.clear {
+background-color:#f80000;
+}
+
+.calc-button.clear:hover {
+background-color:#d00000;
+}
+
+.calc-button.equal {
+background-color:#00ff00;
+}
+
+.calc-button.equal:hover {
+background-color:#33cc33;
+}
+
+.calc-button.operator {
+background-color:#ff7700;
+}
+
+.calc-button.operator:hover {
+background-color:#ff5500;
+}
 
 .blank {}
 
