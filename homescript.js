@@ -74,56 +74,20 @@ function trueD100Generate() {document.getElementById("Rollresults").innerHTML = 
 //End Buttons Functions
 //iframe fade in
 const PagesIframe = document.getElementById('Pages');
-PagesIframe.addEventListener("load", () => {
-    document.getElementById('Pages').style.opacity = '1';
-});
+PagesIframe.addEventListener("load", () => {document.getElementById('Pages').style.opacity = '1';});
 //End iframe fade in
 //iframe fade outs
 var iframe = document.getElementById('Pages');
-
-function fadeOut(el, duration) {
-
-
-    var step = 10 / duration,
-    opacity = 1;
-    function next() {
-        if (opacity <= 0) { return; }
-        el.style.opacity = ( opacity -= step );
-        setTimeout(next, 10);
-    }
-    next();
-}
+function fadeOut(el, duration) {var step = 10 / duration, opacity = 1; function next() {if (opacity <= 0) {return;} el.style.opacity = ( opacity -= step ); setTimeout(next, 10);} next();}
 //End iframe fade outs
 //Dropdowns for mp3 player
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-};
-
+function myFunction() {document.getElementById("myDropdown").classList.toggle("show");}
+window.onclick = function(event) {if (!event.target.matches('.dropbtn')) {var dropdowns = document.getElementsByClassName("dropdown-content"); var i; for (i = 0; i < dropdowns.length; i++) {var openDropdown = dropdowns[i]; if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}};
+//End Dropdowns for mp3 player
 //Start Clock function 
-var dtbElement = document.getElementById('dtb');
-
-function dtb() {
-        dtbElement.textContent = new Date().toString();
-    }
-    
-    setInterval(dtb, 1000);
+var dtbElement = document.getElementById('dtb'); function dtb() {dtbElement.textContent = new Date().toString();} setInterval(dtb, 1000);
 //End Clock function
-
-
 //Start Audioplayer
-//Custom buttons
 const audio = document.getElementById("MP3Audio");
 const playPauseButton = document.getElementById("play-pause-button");
 const volumeControl = document.getElementById("volume-control");
@@ -131,49 +95,11 @@ const progressBar = document.getElementById("progress-bar");
 const currentTimeDisplay = document.getElementById("current-time");
 const totalTimeDisplay = document.getElementById("total-time");
 const loopButton = document.getElementById("loop-MP3-button");
-
 let isPlaying = false;
-
-playPauseButton.addEventListener("click", () => {
-    if (isPlaying) {
-        audio.pause();
-        playPauseButton.textContent = "Play";
-    } else {
-        audio.play();
-        playPauseButton.textContent = "Pause";
-    }
-    isPlaying = !isPlaying;
-});
-
-volumeControl.addEventListener("input", () => {
-    audio.volume = volumeControl.value;
-});
-
-audio.addEventListener("timeupdate", () => {
-    const currentTime = audio.currentTime;
-    const duration = audio.duration;
-
-    const currentMinutes = Math.floor(currentTime / 60);
-    const currentSeconds = Math.floor(currentTime % 60);
-    const totalMinutes = Math.floor(duration / 60);
-    const totalSeconds = Math.floor(duration % 60);
-
-    currentTimeDisplay.textContent = `${currentMinutes}:${currentSeconds < 10 ? '0' : ''}${currentSeconds}`;
-    totalTimeDisplay.textContent = `${totalMinutes}:${totalSeconds < 10 ? '0' : ''}${totalSeconds}`;
-
-    const progress = (currentTime / duration) * 100;
-    progressBar.style.width = `${progress}%`;
-});
-audio.loop = false;
-
-loopButton.addEventListener("click", () => {
-    audio.loop = !audio.loop;
-    if (audio.loop) {
-        loopButton.textContent = "Looping";
-    } else {
-        loopButton.textContent = "Loop";
-    }
-});
+playPauseButton.addEventListener("click", () => {if (isPlaying) {audio.pause(); playPauseButton.textContent = "Play";} else {audio.play(); playPauseButton.textContent = "Pause";} isPlaying = !isPlaying;});
+volumeControl.addEventListener("input", () => {audio.volume = volumeControl.value;});
+audio.addEventListener("timeupdate", () => {const currentTime = audio.currentTime; const duration = audio.duration; const currentMinutes = Math.floor(currentTime / 60); const currentSeconds = Math.floor(currentTime % 60); const totalMinutes = Math.floor(duration / 60); const totalSeconds = Math.floor(duration % 60); currentTimeDisplay.textContent = `${currentMinutes}:${currentSeconds < 10 ? '0' : ''}${currentSeconds}`; totalTimeDisplay.textContent = `${totalMinutes}:${totalSeconds < 10 ? '0' : ''}${totalSeconds}`; const progress = (currentTime / duration) * 100; progressBar.style.width = `${progress}%`;}); audio.loop = false;
+loopButton.addEventListener("click", () => {audio.loop = !audio.loop; if (audio.loop) {loopButton.textContent = "Looping";} else {loopButton.textContent = "Loop";}});
 //End audio player Function
 //Calc Functions
 let currentInput = ''; let currentOperation = ''; let previousInput = '';
