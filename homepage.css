@@ -62,7 +62,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .button1-1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.0; cursor:pointer;}
 
 /*CRT Filter*/
-.buttoncrt {transition:border-radius 0.2s ease; transform:0.2s; background-color:rgba(0,0,0,0); opacity:1.0; padding:6px 6px; color:#ffff33; font-size:175%; width:99.9%; text-align:center; display:inline-block; border:ridge 5px #ff66ff; margin-left:-.5px; margin-bottom:1px; margin-top:-1.75%; font-family:Monospace; cursor:pointer;}
+.buttoncrt {transition:border-radius 0.2s ease; transform:0.2s; background-color:rgba(0,0,0,0); opacity:1.0; padding:6px 6px; color:#ffff33; font-size:175%; width:99.9%; text-align:center; display:inline-block; border:ridge 3px #ff66ff; margin-left:-.5px; margin-bottom:1px; margin-top:-1.75%; font-family:Monospace; cursor:pointer;}
 
 .buttoncrt:hover {background-color:rgba(0,0,0,0.75); transform:scale(0.95); border-radius:15px; background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
