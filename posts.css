@@ -2,7 +2,7 @@ body {background-image:radial-gradient(circle, #dddddd 67%, #ffff99); height:220
 
 th, td {border:6px ridge #bf00ff; border-radius:12px; text-align:center; margin-left:auto; margin-right:auto; background-color:#232323;}
 
-h1 {text-shadow:2px 2px hotpink; color:#FFFF33; font-size:400%; font-family:Courier New; text-align:center; border:dashed 5px #ff63c7; border-radius:12px; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#fff600; outline-offset:3px;}
+h1 {text-shadow:2px 2px #ffff99; color:#000000; font-size:400%; font-family:Courier New; text-align:center; display:inline-block; padding:3px;}
 
 .link {background-color:#bf00ff; color:#72FF13; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block; cursor:pointer;}
 
@@ -16,7 +16,7 @@ nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00
 
 .button:hover {transform:scale(0.95); opacity:1.0; cursor:pointer;}
 
-.no-bullets {list-style-type: none; margin-left:1%; margin-top:0px; margin-bottom:0px; margin-right:1%; border:ridge 5px #888888; border-radius:20px; padding:5px;  font-family:Courier New; text-align:center; color:#ffffff; text-shadow: 3px 3px #000000; font-size:200%;}
+.no-bullets {list-style-type: none; margin-left:1%; margin-top:0px; margin-bottom:0px; margin-right:1%; border:ridge 5px #888888; border-radius:20px; padding:5px; font-family:Courier New; text-align:center; color:#ffffff; text-shadow: 3px 3px #000000; font-size:200%;}
 
 .button {transform:0.2s; background-color:#000000; padding:6px 6px; color:#ffffff; text-shadow: 3px 3px #575757; opacity:1.0; font-size:150%; width:99%; text-align:center; display:inline-block; border:ridge 1px grey; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 
