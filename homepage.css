@@ -46,7 +46,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .hr9 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:.5px; margin-bottom:0%;}
 
-.button1 {background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
+.button1 {transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
 
 .buttoncrt {background-color:rgba(0,0,0,0); opacity:1.0; padding:6px 6px; color:#ffff33; font-size:175%; width:99.9%; text-align:center; display:inline-block; border:ridge 1px #ff66ff; margin-left:-.5px; margin-bottom:1px; margin-top:-1.75%; font-family:Monospace; cursor:pointer;}
 
@@ -163,15 +163,19 @@ background-color:#ff5500;
 
 .blank {}
 
-.button1-1 {background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
+.button1-1 {transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
 
 .link {background-color:#bf00ff; padding: 6px 6px; text-align: center; text-decoration: none; display:inline-block;}
 
 a:hover, a:active {opacity:1.0; cursor:pointer;}
 
-.button1:hover {background-color:rgba(20,20,20,0.75); opacity:1.0; cursor:pointer;}
+.button1:hover {transform:scale(1.25); opacity:1.0; cursor:pointer;}
 
-.button1-1:hover {background-color:rgba(20,20,20,0.75); opacity:1.0; cursor:pointer;}
+.button1:active {transform:scale(0.95); opacity:1.0;}
+
+.button1-1:hover {transform:scale(1.25); opacity:1.0; cursor:pointer;}
+
+.button1-1:active {transform:scale(0.95); opacity:1.0;}
 
 .buttoncrt:hover {background-color:rgba(0,0,0,0.5);  background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
