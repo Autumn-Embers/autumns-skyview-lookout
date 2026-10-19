@@ -18,7 +18,7 @@ nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00
 
 .no-bullets {list-style-type: none; margin-left:1%; margin-top:0px; margin-bottom:0px; margin-right:1%; border:ridge 5px #888888; border-radius:20px; padding:5px; font-family:Courier New; text-align:center; color:#ffffff; text-shadow: 3px 3px #000000; font-size:200%;}
 
-.button {transform:0.2s; background-color:#000000; padding:6px 6px; color:#ffffff; text-shadow: 3px 3px #575757; opacity:1.0; font-size:150%; width:99%; text-align:center; display:inline-block; border:ridge 1px grey; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+.button {transform:0.2s; background-color:#000000; padding:6px 6px; color:#ffffff; text-shadow: 3px 3px #575757; opacity:1.0; font-size:100%; width:98%; text-align:center; display:inline-block; border:ridge 1px grey; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
 
 .hr1 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 
@@ -28,9 +28,9 @@ nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00
 
 .dropbtn:hover, .dropbtn:focus {transform:scale(0.95); opacity:1.0; cursor:pointer;}
 
-.dropdown {position:center;  align-content:center; display:block; width:50%; border:ridge 0px grey; text-align:center;}
+.dropdown {position:center;  align-content:center; display:block; width:25%; border:ridge 0px grey; text-align:center;}
 
-.dropdown-content {list-style-type: none; display:none; width:98.5%; max-height:80%; overflow:auto; position:center; align-content:center; z-index:1; padding:6px 6px; color:#ffffff; font-size:175%; border:ridge 0px #0F52BA; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+.dropdown-content {list-style-type: none; display:none; background-color:#1e1e1e; width:97%; height:98%; position:center; align-content:center; z-index:1; padding:6px 6px; color:#ffffff; font-size:175%; border:ridge 1px grey; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 
 .dropdown-content.a {transform:0.2s; list-style-type: none; background-color:#000000; padding:6px 6px; color:#ffffff; opacity:1.0; font-size:50%; width:75%; min-height:8%; max-height:25%; text-align:center; display:inline-block; border:ridge 1px #ffffff; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 
