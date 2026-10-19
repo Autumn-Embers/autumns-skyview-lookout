@@ -18,7 +18,7 @@ nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00
 
 .no-bullets {list-style-type: none; margin-left:1%; margin-top:0px; margin-bottom:0px; margin-right:1%; border:ridge 5px #888888; border-radius:20px; padding:5px; font-family:Courier New; text-align:center; color:#ffffff; text-shadow: 3px 3px #000000; font-size:200%;}
 
-.button {transform:0.2s; background-color:#cdcdcd; padding:6px 6px; color:#000000; opacity:1.0; font-size:100%; width:98%; text-align:center; display:inline-block; border:ridge 1px grey; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
+.button {transform:0.2s; background-color:#cdcdcd; padding:6px 6px; color:#000000; opacity:1.0; font-size:100%; width:95%; text-align:center; display:inline-block; border:ridge 1px grey; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
 
 .hr1 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 
