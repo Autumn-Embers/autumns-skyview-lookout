@@ -30,7 +30,7 @@ nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00
 
 .dropdown {position:center;  align-content:center; display:block; width:50%; border:ridge 0px grey; text-align:center;}
 
-.dropdown-content {list-style-type: none; display:none; width:98.5%; height:100%; position:center; align-content:center; z-index:1; padding:6px 6px; color:#ffffff; font-size:175%; border:ridge 0px #0F52BA; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
+.dropdown-content {list-style-type: none; display:none; width:98.5%; max-height:80%; overflow:auto; position:center; align-content:center; z-index:1; padding:6px 6px; color:#ffffff; font-size:175%; border:ridge 0px #0F52BA; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 
 .dropdown-content.a {transform:0.2s; list-style-type: none; background-color:#000000; padding:6px 6px; color:#ffffff; opacity:1.0; font-size:50%; width:75%; min-height:8%; max-height:25%; text-align:center; display:inline-block; border:ridge 1px #ffffff; margin-bottom:7px; font-family:Monospace; cursor:pointer;}
 
