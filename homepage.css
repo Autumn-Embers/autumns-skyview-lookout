@@ -92,7 +92,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
   border-radius:15px;
   box-shadow:0 8px 16px rgba(0, 0, 0, 0.1);
   padding:20px;
-  margin-right:.5px;
+  margin-right:0px;
 }
 
 .calc-display {
