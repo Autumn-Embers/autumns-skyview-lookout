@@ -33,7 +33,7 @@ var D10Button = document.querySelector('#ButtonsD10').onclick = () => {D10Genera
 var D12Button = document.querySelector('#ButtonsD12').onclick = () => {D12Generate()};
 var D20Button = document.querySelector('#ButtonsD20').onclick = () => {D20Generate()};
 var D100Button = document.querySelector('#ButtonsD100').onclick = () => {D100Generate()};
-var trueD100Button = document.querySelector('#Buttons-trueD100').onclick = () => {trueD100Generate()};
+var TrueD100Button = document.querySelector('#Buttons-trueD100').onclick = () => {trueD100Generate()};
 var CalcClearButton = document.querySelector('#calc-clear').onclick = () => {clearDisplay()};
 var CalcDivideButton = document.querySelector('#calc-divide').onclick = () => {appendOperation('/')};
 var CalcMultiplyButton = document.querySelector('#calc-multiply').onclick = () => {appendOperation('*')};
