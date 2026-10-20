@@ -1,4 +1,5 @@
-body {background-image:linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);}
+html {background-image:linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);}
+body {background-image:url('mylogo.png'); background-size:fill; background-repeat:no-repeat;}
 .header {text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; font-size:300%; font-family:monospace;}
 .div1 {padding:4px; border:ridge 2px #888888; color:#ffffff; border-radius:15px; background-color:#1E1E1E; width:99%; height:90%; background-size:cover; font-size:125%; font-family:monospace;}
 .hr1 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
