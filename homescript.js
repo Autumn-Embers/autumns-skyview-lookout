@@ -33,7 +33,7 @@ var D10Button = document.querySelector('#ButtonsD10').onclick = () => {D10Genera
 var D12Button = document.querySelector('#ButtonsD12').onclick = () => {D12Generate()};
 var D20Button = document.querySelector('#ButtonsD20').onclick = () => {D20Generate()};
 var D100Button = document.querySelector('#ButtonsD100').onclick = () => {D100Generate()};
-var TrueD100Button = document.querySelector('#Buttons-trueD100').onclick = () => {trueD100Generate()};
+var TrueD100Button = document.querySelector('#Buttons-trueD100').onclick = () => {TrueD100Generate()};
 var CalcClearButton = document.querySelector('#calc-clear').onclick = () => {clearDisplay()};
 var CalcDivideButton = document.querySelector('#calc-divide').onclick = () => {appendOperation('/')};
 var CalcMultiplyButton = document.querySelector('#calc-multiply').onclick = () => {appendOperation('*')};
@@ -71,7 +71,7 @@ function D10Generate() {document.getElementById("Rollresults").innerHTML = Math.
 function D12Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 12) + 1;}
 function D20Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 20) + 1;}
 function D100Generate() {document.getElementById("Rollresults").innerHTML = Math.floor((Math.random() * 10) + 1) * 10;}
-function trueD100Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 100) + 1;}
+function TrueD100Generate() {document.getElementById("Rollresults").innerHTML = Math.floor(Math.random() * 100) + 1;}
 //End Buttons Functions
 //iframe fade in
 const PagesIframe = document.getElementById('Pages');
