@@ -52,13 +52,13 @@ var Calc8Button = document.querySelector('#calc-8').onclick = () => {appendNumbe
 var Calc9Button = document.querySelector('#calc-9').onclick = () => {appendNumber('9')};
 //End Buttons
 //Buttons Functions
-function HomeButton() {document.getElementById('Pages').src='./index4'}
-function AboutButton() {document.getElementById('Pages').src='./index5'}
-function ContactButton() {document.getElementById('Pages').src='./index6'}
-function PostsButton() {document.getElementById('Pages').src='./index8'}
-function PhotogButton() {document.getElementById('Pages').src='./index7'}
-function GuestbookButton() {document.getElementById('Pages').src='./index9'}
-function LinksButton() {document.getElementById('Pages').src='./index10'}
+function HomeButton() {document.getElementById('Pages').src='./home'}
+function AboutButton() {document.getElementById('Pages').src='./about'}
+function ContactButton() {document.getElementById('Pages').src='./contact'}
+function PostsButton() {document.getElementById('Pages').src='./posts'}
+function PhotogButton() {document.getElementById('Pages').src='./photography'}
+function GuestbookButton() {document.getElementById('Pages').src='./guestbook'}
+function LinksButton() {document.getElementById('Pages').src='./links'}
 function LinuxguideButton() {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'}
 function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("blank"); element.classList.add("crt");}
 function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
