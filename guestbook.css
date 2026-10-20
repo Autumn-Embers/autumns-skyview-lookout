@@ -1,4 +1,4 @@
-body {min-height:2200px; background-color:#1e1e1e;}
+body {min-height:2200px; background-color:rgba(25,25,25,0.6);}
 .header {text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; font-size:300%; font-family:monospace;}
 .div1 {align-content:center; justify-content:center; display:flex;}
 .hr1 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
