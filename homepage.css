@@ -105,7 +105,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .Dice-button3:hover {opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
-.Dice-results {margin-top:5px; margin-left:-.5px; width:60px; height:60px; background-color:#ffffff; border:solid 7px #777777; border-radius:50%;}
+.Dice-results {margin-top:5px; margin-left:-.5px; width:60px; height:60px; background-color:#000000; border:solid 7px #777777; border-radius:50%;}
 
 .Dice-results-text {text-align:center; margin-left:-.5px; vertical-align:middle; color:#6699ff; font-size:150%;}
 
