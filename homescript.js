@@ -1,5 +1,5 @@
 //Buttons
-var Buttons1 = document.querySelector('#Buttons1').onclick = () => {fadeOut(iframe, 250); {setTimeout(HomeButton, 1000)}; {Hometitle()}};
+var Buttons1 = document.querySelector('#Buttons1').onclick = () => {fadeOut(iframe, 250); {setTimeout(HomeButton, 1000)}};
 var Buttons2 = document.querySelector('#Buttons2').onclick = () => {fadeOut(iframe, 250); {setTimeout(AboutButton, 1000)}};
 var Buttons3 = document.querySelector('#Buttons3').onclick = () => {fadeOut(iframe, 250); {setTimeout(ContactButton, 1000)}};
 var Buttons4 = document.querySelector('#Buttons4').onclick = () => {fadeOut(iframe, 250); {setTimeout(PostsButton, 1000)}};
@@ -60,7 +60,6 @@ function PhotogButton() {document.getElementById('Pages').src='./photography'}
 function GuestbookButton() {document.getElementById('Pages').src='./guestbook'}
 function LinksButton() {document.getElementById('Pages').src='./links'}
 function LinuxguideButton() {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'}
-function Hometitle() {document.title = "/pages/home"}
 function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("blank"); element.classList.add("crt");}
 function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
 function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}}
