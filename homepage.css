@@ -12,7 +12,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .td2 {color:#0F52BA;text-align:center; width:100.35%; height:2200px; vertical-align:top; display:inline-block; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; font-family:Monospace;}
 
 /*Iframes*/
-.iframe1 {width:75%; height:98%; margin-top:.5%; border:ridge 10px #87CEEB; border-radius:20px; opacity:0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out;}
+.iframe1 {width:75%; height:98%; margin-top:.5%; border:ridge 10px #800080; border-radius:20px; opacity:0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out;}
 
 /*Display Organisers*/
 .span1 {opacity:1.0;}
