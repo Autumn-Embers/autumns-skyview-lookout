@@ -25,7 +25,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .div1 {display:flex; align-content:center; justify-content:center;}
 
-.div2 {display:flex; align-content:center; justify-content:center; border:ridge 3px #dddddd; background-color:none; font-size:150%; color:#dddddd; margin-top:-2%; margin-bottom:.8%;}
+.div2 {display:flex; align-content:center; justify-content:center; border:ridge 3px #dddddd; background-color:none; font-family:Pixel; font-size:150%; color:#dddddd; margin-top:-2%; margin-bottom:.8%;}
 
 .div3 {display:flex; align-content:center; justify-content:center; color:#ffffff;}
 
@@ -33,9 +33,9 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .div4 {display:flex; align-content:center; justify-content:center; color:#ffffff; margin-top:-.2%; margin-bottom:-1.75%;}
 
-.div5 {display:flex; align-content:center; justify-content:center; width:300px; border:ridge 3px #cccccc; background-color:none; font-size:150%; color:#bf00ff; margin-top:-1.5%; margin-bottom:0px;}
+.div5 {display:flex; align-content:center; justify-content:center; width:300px; border:ridge 3px #cccccc; background-color:none; font-family:Pixel; font-size:150%; color:#bf00ff; margin-top:-1.5%; margin-bottom:0px;}
 
-.div6 {display:flex; align-content:center; justify-content:center; border:ridge 3px #dddddd; background-color:none; font-size:150%; color:#ff0000; text-align:center; margin-top:1px; margin-bottom:1.5px;}
+.div6 {display:flex; align-content:center; justify-content:center; border:ridge 3px #dddddd; background-color:none; font-size:150%; font-family:Pixel; color:#ff0000; text-align:center; margin-top:1px; margin-bottom:1.5px;}
 
 /*Dividers*/
 .hr1 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
@@ -74,21 +74,21 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .dtb {list-style-type:none; background-color:transparent; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.2%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:FancyPixel; outline:ridge 5px #9B111E;}
 
 /*Dice Roller*/
-.Dice-button1 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-1 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#0000e6; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-1 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#0000e6; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-2 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#7a0099; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-2 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#7a0099; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button1-3 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#00802b; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button1-3 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#00802b; color:#ffffff; border:ridge 3px #cccccc;}
 
-.Dice-button2 {transition:border-radius 0.2s ease; transform:0.2s; width:33.3%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#ffff00; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2 {transition:border-radius 0.2s ease; transform:0.2s; width:33.3%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#ffff00; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button2-1 {transition:border-radius 0.2s ease; transform:0.2s; width:33.4%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#ff9900; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2-1 {transition:border-radius 0.2s ease; transform:0.2s; width:33.4%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#ff9900; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button2-2 {transition:border-radius 0.2s ease; transform:0.2s; width:33.3%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#ff80ff; color:#000000; border:ridge 3px #cccccc;}
+.Dice-button2-2 {transition:border-radius 0.2s ease; transform:0.2s; width:33.3%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#ff80ff; color:#000000; border:ridge 3px #cccccc;}
 
-.Dice-button3 {transition:border-radius 0.2s ease; transform:0.2s; width:100%; opacity:1.0; font-family:FancyPixel; font-size:87%; background-color:#000000; color:#ffffff; border:ridge 3px #cccccc;}
+.Dice-button3 {transition:border-radius 0.2s ease; transform:0.2s; width:100%; opacity:1.0; font-family:Pixel; font-size:87%; background-color:#000000; color:#ffffff; border:ridge 3px #cccccc;}
 
 .Dice-button1:hover {opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
@@ -108,7 +108,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .Dice-results {margin-top:5px; margin-left:-.5px; width:60px; height:60px; background-color:#000000; border:solid 7px #777777; border-radius:50%;}
 
-.Dice-results-text {text-align:center; margin-left:-.5px; vertical-align:middle; color:#6699ff; font-size:150%;}
+.Dice-results-text {text-align:center; margin-left:-.5px; vertical-align:middle; font-family:Pixel; color:#6699ff; font-size:150%;}
 
 /*Calculator*/
 .calc {width:87%; height:355px; background-color:#202020; border-radius:15px; box-shadow:0 8px 16px rgba(0, 0, 0, 0.1); padding:20px; margin-left:.3px; margin-right:0px;}
@@ -146,9 +146,9 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 #current-time, #total-time {color:#ffffff;}
 
-.loop-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-left:.5px; font-family:FancyPixel; cursor:pointer;}
+.loop-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-left:.5px; font-family:Pixel; cursor:pointer;}
 
-.p-p-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-right:.5px; font-family:FancyPixel; cursor:pointer;}
+.p-p-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-right:.5px; font-family:Pixel; cursor:pointer;}
 
 .button2 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; font-family:FancyPixel; cursor:pointer;}
 
@@ -158,7 +158,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .p-p-button:hover {background-color:rgba(20,20,20,0.75); opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
-.dropbtn {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:125%; width:100%; height:35px; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-top:2.4%; margin-bottom:.2%; font-family:FancyPixel; cursor:pointer;}
+.dropbtn {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:125%; width:100%; height:35px; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-top:2.4%; margin-bottom:.2%; font-family:Pixel; cursor:pointer;}
 
 .dropbtn:hover {background-color:rgba(20,20,20,0.75); opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
