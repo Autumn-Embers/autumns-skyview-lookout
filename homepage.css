@@ -2,8 +2,8 @@
 body {background-color:#000006; background-image:url('stars.gif'); background-size:fill; font-family:monospace;}
 
 /*Custom Fonts*/
-@Font-face {font-family:monospace; src:url(./pcsenior.ttf);}
-@Font-face {font-family:monospace; src:url(./Star Crush.ttf);}
+@Font-face {font-family:Pixel; src:url(./pcsenior.ttf);}
+@Font-face {font-family:FancyPixel; src:url(./Star Crush.ttf);}
 
 /*Headings*/
 .header1 {margin:-6px -6px 0px -6px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('rain.gif'); background-size:fill; font-family:Pixel;}
