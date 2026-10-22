@@ -111,7 +111,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .Dice-results {margin-top:5px; margin-left:-.5px; width:60px; height:60px; background-color:#ffffff; border:solid 7px #777777; border-radius:50%;}
 
-.Dice-results-text {text-align:center; margin-left:-.5px; vertical-align:middle; color:#000000; font-size:100%;}
+.Dice-results-text {text-align:center; margin-left:-.5px; vertical-align:middle; color:#000000; font-size:115%;}
 
 /*Calculator*/
 .calc {width:87%; height:355px; background-color:#202020; border-radius:15px; box-shadow:0 8px 16px rgba(0, 0, 0, 0.1); padding:20px; margin-left:.3px; margin-right:0px;}
