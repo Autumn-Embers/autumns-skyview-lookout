@@ -1,12 +1,12 @@
 //Buttons
-var Buttons1 = document.querySelector('#Buttons1').onclick = () => {fadeOut(iframe, 250); {setTimeout(HomeButton, 1000)}};
-var Buttons2 = document.querySelector('#Buttons2').onclick = () => {fadeOut(iframe, 250); {setTimeout(AboutButton, 1000)}};
-var Buttons3 = document.querySelector('#Buttons3').onclick = () => {fadeOut(iframe, 250); {setTimeout(ContactButton, 1000)}};
-var Buttons4 = document.querySelector('#Buttons4').onclick = () => {fadeOut(iframe, 250); {setTimeout(PostsButton, 1000)}};
-var Buttons5 = document.querySelector('#Buttons5').onclick = () => {fadeOut(iframe, 250); {setTimeout(PhotogButton, 1000)}};
-var Buttons6 = document.querySelector('#Buttons6').onclick = () => {fadeOut(iframe, 250); {setTimeout(GuestbookButton, 1000)}};
-var Buttons7 = document.querySelector('#Buttons7').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinksButton, 1000)}};
-var Buttons8 = document.querySelector('#Buttons8').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinuxguideButton, 1000)}};
+var Buttons1 = document.querySelector('#Buttons1').onclick = () => {fadeOut(iframe, 250); {setTimeout(HomeButton, 1000)}; {setTimeout(ScrollToHome, 1000)}};
+var Buttons2 = document.querySelector('#Buttons2').onclick = () => {fadeOut(iframe, 250); {setTimeout(AboutButton, 1000)}; {setTimeout(ScrollToAbout, 1000)}};
+var Buttons3 = document.querySelector('#Buttons3').onclick = () => {fadeOut(iframe, 250); {setTimeout(ContactButton, 1000)}; {setTimeout(ScrollToContact, 1000)}};
+var Buttons4 = document.querySelector('#Buttons4').onclick = () => {fadeOut(iframe, 250); {setTimeout(PostsButton, 1000)}; {setTimeout(ScrollToPosts, 1000)}};
+var Buttons5 = document.querySelector('#Buttons5').onclick = () => {fadeOut(iframe, 250); {setTimeout(PhotogButton, 1000)}; {setTimeout(ScrollToPhotography, 1000)}};
+var Buttons6 = document.querySelector('#Buttons6').onclick = () => {fadeOut(iframe, 250); {setTimeout(GuestbookButton, 1000)}; {setTimeout(ScrollToGuestbook, 1000)}};
+var Buttons7 = document.querySelector('#Buttons7').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinksButton, 1000)}; {setTimeout(ScrollToLinks, 1000)}};
+var Buttons8 = document.querySelector('#Buttons8').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinuxguideButton, 1000)}; {setTimeout(ScrollToLinuxGuide, 1000)}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./evergrowingnight.mp3'};
 var MP3Buttons1 = document.querySelector('#MP3Buttons3').onclick = () => {document.getElementById('MP3Audio').src='./godonlyknows.mp3'};
@@ -60,6 +60,14 @@ function PhotogButton() {document.getElementById('Pages').src='./photography'}
 function GuestbookButton() {document.getElementById('Pages').src='./guestbook'}
 function LinksButton() {document.getElementById('Pages').src='./links'}
 function LinuxguideButton() {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'}
+function ScrollToHome() {window.location.href = '#Home';}
+function ScrollToAbout() {window.location.href = '#About';}
+function ScrollToContact() {window.location.href = '#Contact';}
+function ScrollToPosts() {window.location.href = '#Posts';}
+function ScrollToPhotography() {window.location.href = '#Photography';}
+function ScrollToGuestbook() {window.location.href = '#Guestbook';}
+function ScrollToLinks() {window.location.href = '#Links';}
+function ScrollToLinuxGuide() {window.location.href = '#Linux-Guide';}
 function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("blank"); element.classList.add("crt");}
 function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
 function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}}
