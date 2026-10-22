@@ -149,9 +149,9 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 #current-time, #total-time {color:#ffffff;}
 
-.loop-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.2%; font-family:Pixel; cursor:pointer;}
+.loop-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2%; font-family:Pixel; cursor:pointer;}
 
-.p-p-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.2%; font-family:Pixel; cursor:pointer;}
+.p-p-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2%; font-family:Pixel; cursor:pointer;}
 
 .button2 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; font-family:Pixel; cursor:pointer;}
 
