@@ -1,14 +1,16 @@
-body {background-image:url('floodbasin3.jpg'); background-size:cover; background-repeat:no-repeat; color:#72FF13; font-family:monospace; text-align:center;}
-.p1 {color:#dddddd; font-family:monospace; text-align:center; font-size:150%; text-shadow:2px 2px #777777;}
+body {background-image:url('floodbasin3.jpg'); background-size:cover; background-repeat:no-repeat; color:#72FF13; font-family:Pixel; text-align:center;}
+@Font-face {font-family:OldPixel; src:url(./pcsenior.ttf);}
+@Font-face {font-family:Pixel; src:url(./PixeloidSans.ttf);}
+.p1 {color:#dddddd; font-family:Pixel; text-align:center; font-size:150%; text-shadow:2px 2px #777777;}
 th, td {border:6px ridge #bf00ff; border-radius:12px; text-align:center; margin-left:auto; margin-right:auto; background-color:#232323;}
-h1 {color:#fff600; text-shadow: 3px 3px #ff63c7; font-size:400%; font-family:Courier New; text-align:center; border:dashed 5px #ff63c7; border-radius:12px; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#fff600; outline-offset:3px;}
+h1 {color:#fff600; text-shadow: 3px 3px #ff63c7; font-size:400%; font-family:Pixel; text-align:center; border:dashed 5px #ff63c7; border-radius:12px; display:inline-block; padding:3px; outline-style:ridge; outline-width:5px; outline-color:#fff600; outline-offset:3px;}
 div {text-align:center;}
 img {color:red;}
 a {color:#72FF13;}
 nav {color:#72FF13; font-family:Courier New; text-align:center; border:5px #bf00ff; border-radius:12px; border-style:ridge; display:inline-block; padding:10px;}
 .button:hover {transform:scale(1.02); opacity:1.0; cursor:pointer;}
 .no-bullets {list-style-type: none; margin-left:1%; margin-top:0px; margin-bottom:0px; margin-right:1%; border:ridge 5px #00674F; border-radius:20px; padding:5px;}
-.button {transform:0.2s; background-color:#000000; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:250%; width:99%; text-align:center; display:inline-block; border:ridge 3px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Monospace; cursor:pointer;}
-button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:99%; text-align:center; display:inline-block; border:ridge 3px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Monospace; cursor:pointer;}
+.button {transform:0.2s; background-color:#000000; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:250%; width:99%; text-align:center; display:inline-block; border:ridge 3px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Pixel; cursor:pointer;}
+button {background-color:#000000; padding:6px 6px; color:#9B111E; opacity:0.7; font-size:175%; width:99%; text-align:center; display:inline-block; border:ridge 3px #0F52BA; border-radius:20px; margin-bottom:.2%; margin-top:.2%; font-family:Pixel; cursor:pointer;}
 .hr1 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 .hr2 {color:pink; padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
