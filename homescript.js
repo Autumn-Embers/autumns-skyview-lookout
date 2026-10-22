@@ -67,7 +67,7 @@ function ChangeLinkNamePosts() {window.location.href = '#posts';}
 function ChangeLinkNamePhotography() {window.location.href = '#photography';}
 function ChangeLinkNameGuestbook() {window.location.href = '#guestbook';}
 function ChangeLinkNameLinks() {window.location.href = '#links';}
-function ChangeLinkNameLinuxGuide() {window.location.href = '#linuxguide';}
+function ChangeLinkNameLinuxGuide() {window.location.href = '#linux-guide';}
 function TurnOncrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("blank"); element.classList.add("crt");}
 function TurnOffcrt() {const element = document.getElementById("TheEntireHeckinWebsite"); element.classList.remove("crt"); element.classList.add("blank");}
 function Togglecrt() {if(TheEntireHeckinWebsite.className == "blank") {TurnOncrt()} else{TurnOffcrt()}}
