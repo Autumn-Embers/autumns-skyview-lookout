@@ -1,7 +1,7 @@
 /*Main Page Display*/
 html {scroll-behaviour:smooth;}
 
-body {background-color:#000006; background-image:url('stars.gif'); background-size:fill; font-family:monospace;}
+body {background-color:#000006; background-image:url('stars.gif'); background-size:fill; font-family:Pixel;}
 
 /*Custom Fonts*/
 @Font-face {font-family:OldPixel; src:url(./pcsenior.ttf);}
@@ -9,14 +9,14 @@ body {background-color:#000006; background-image:url('stars.gif'); background-si
 @Font-face {font-family:StarCrush; src:url(./Star Crush.ttf);}
 
 /*Headings*/
-.header1 {margin:-6px -6px 0px -6px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('rain.gif'); background-size:fill; font-family:Pixel;}
+.header1 {margin:-6px -6px 0px -6px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('rain.gif'); background-size:fill; font-family:StarCrush;}
 
 /*Tables*/
 table {margin-left:-8px; margin-right:-8px; width:100%;}
 
-.td1 {color:#9B111E; Width:300px; height:2200px; vertical-align:top; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:Monospace;}
+.td1 {color:#9B111E; Width:300px; height:2200px; vertical-align:top; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:Pixel;}
 
-.td2 {color:#0F52BA;text-align:center; width:100.35%; height:2200px; vertical-align:top; display:inline-block; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; font-family:Monospace;}
+.td2 {color:#0F52BA;text-align:center; width:100.35%; height:2200px; vertical-align:top; display:inline-block; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; font-family:Pixel;}
 
 /*Iframes*/
 .iframe1 {width:75%; height:98%; margin-top:.5%; border:ridge 10px #800080; border-radius:20px; opacity:0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out;}
@@ -60,9 +60,9 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .hr9 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:.5px; margin-bottom:0%;}
 
 /*Iframe Buttons*/
-.button1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Monospace; cursor:pointer;}
+.button1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Pixel; cursor:pointer;}
 
-.button1-1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Monospace; cursor:pointer;}
+.button1-1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; margin-top:-1.2%; font-family:Pixel; cursor:pointer;}
 
 .button1:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.0; cursor:pointer;}
 
@@ -74,7 +74,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .buttoncrt:hover {background-color:rgba(0,0,0,0.75); transform:scale(0.95); border-radius:15px; background-image:url('static.gif'); background-size:fill; cursor:pointer;}
 
 /*Clock*/
-.dtb {list-style-type:none; background-color:transparent; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.2%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Monospace; outline:ridge 5px #9B111E;}
+.dtb {list-style-type:none; background-color:transparent; padding:6px 6px; color:#00674F; opacity:1.0; font-size:175%; width:97.2%; min-height:8%; text-align:center; display:inline-block; border:ridge 5px #0F52BA; font-family:Pixel; outline:ridge 5px #9B111E;}
 
 /*Dice Roller*/
 .Dice-button1 {transition:border-radius 0.2s ease; transform:0.2s; width:25%; opacity:1.0; background-color:#cc0000; color:#ffffff; border:ridge 3px #cccccc;}
@@ -139,7 +139,7 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 .calc-button.operator:hover {background-color:#ff5500;}
 
 /*AudioPlayer*/
-.audioplayer {width:95%; text-align:center; padding:6px 6px; color:#9B111E; background-color:#000000; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Monospace; cursor:pointer; align-content:center;}
+.audioplayer {width:95%; text-align:center; padding:6px 6px; color:#9B111E; background-color:#000000; border:ridge 1px #0F52BA; border-radius:20px; margin-bottom:7px; font-family:Pixel; cursor:pointer; align-content:center;}
 
 .controls {display:flex; align-items: center; margin-top:0px;}
 
@@ -149,11 +149,11 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 #current-time, #total-time {color:#ffffff;}
 
-.loop-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-left:.5px; font-family:Monospace; cursor:pointer;}
+.loop-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-left:.5px; font-family:Pixel; cursor:pointer;}
 
-.p-p-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-right:.5px; font-family:Monospace; cursor:pointer;}
+.p-p-button {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:150%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; margin-top:2.25%; margin-right:.5px; font-family:Pixel; cursor:pointer;}
 
-.button2 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; font-family:Monospace; cursor:pointer;}
+.button2 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-bottom:0%; font-family:Pixel; cursor:pointer;}
 
 .button2:hover {background-color:rgba(20,20,20,0.75); opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
@@ -161,15 +161,15 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .p-p-button:hover {background-color:rgba(20,20,20,0.75); opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
-.dropbtn {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:125%; width:100%; height:35px; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-top:2.4%; margin-bottom:.2%; font-family:Monospace; cursor:pointer;}
+.dropbtn {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; color:#dddddd; opacity:1.0; font-size:125%; width:100%; height:35px; text-align:center; display:inline-block; border:ridge 3px #dddddd; margin-top:2.4%; margin-bottom:.2%; font-family:Pixel; cursor:pointer;}
 
 .dropbtn:hover {background-color:rgba(20,20,20,0.75); opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
 .dropdown {position:relative;  display:block; width:100%; margin-top:-3%; margin-bottom:-8%;}
 
-.dropdown-content {list-style-type: none; display:none; width:98%; min-height:50%; position:absolute; z-index:1; background-color:transparent; color:#dddddd; font-size:100%; border:ridge 3px #dddddd; margin-bottom:0%; margin-right:2.25%; font-family:Monospace;}
+.dropdown-content {list-style-type: none; display:none; width:98%; min-height:50%; position:absolute; z-index:1; background-color:transparent; color:#dddddd; font-size:100%; border:ridge 3px #dddddd; margin-bottom:0%; margin-right:2.25%; font-family:Pixel;}
 
-.dropdown-content .button2 {list-style-type: none; background-color:#000000; padding:6px 6px; color:#dddddd; opacity:1.0; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; font-family:Monospace; cursor:pointer;}
+.dropdown-content .button2 {list-style-type: none; background-color:#000000; padding:6px 6px; color:#dddddd; opacity:1.0; font-size:100%; width:100%; text-align:center; display:inline-block; border:ridge 3px #dddddd; font-family:Pixel; cursor:pointer;}
 
 .dropdown-content .button2:hover {opacity:1.0; transform:scale(0.95); border-radius:15px; cursor:pointer;}
 
