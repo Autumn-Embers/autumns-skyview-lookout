@@ -1,4 +1,5 @@
 body {min-height:2200px; background-color:rgba(25,25,25,0.6);}
-.header {text-shadow:2px 2px hotpink; color:#FFFF33; text-align:center; font-size:300%; font-family:monospace;}
-.div1 {padding:4px; margin-left:0%; border:ridge 2px #888888; color:#ffffff; border-radius:15px; min-width:99%; max-width:100%; height:300px; font-size:125%; font-family:monospace; text-align:center;}
-.div2 {padding:4px; margin-left:0%; border:ridge 2px #888888; color:#ffffff; border-radius:15px; min-width:99%; max-width:100%; height:1200px; font-size:125%; font-family:monospace; text-align:center;}
+@Font-face {font-family:Pixel; src:url(./PixeloidSans.ttf);}
+.header {text-shadow:2px 2px hotpink; color:#FFFF33; text-align:center; font-size:300%; font-family:Pixel;}
+.div1 {padding:4px; margin-left:0%; border:ridge 2px #888888; color:#ffffff; border-radius:15px; min-width:99%; max-width:100%; height:300px; font-size:125%; font-family:Pixel; text-align:center;}
+.div2 {padding:4px; margin-left:0%; border:ridge 2px #888888; color:#ffffff; border-radius:15px; min-width:99%; max-width:100%; height:1200px; font-size:125%; font-family:Pixel; text-align:center;}
