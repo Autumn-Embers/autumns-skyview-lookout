@@ -1,7 +1,6 @@
 body {background-color:rgba(25,25,25,0.6);}
 @Font-face {font-family:OldPixel; src:url(./pcsenior.ttf);}
 @Font-face {font-family:Pixel; src:url(./PixeloidSans.ttf);}
-@Font-face {font-family:StarCrush; src:url(./Star Crush.ttf);}
 .div1 {padding:4px; border:ridge 2px #888888; color:#000000; border-radius:15px; background-image:linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet); width:99%; height:90%; background-size:cover; font-size:150%; font-family:Pixel;}
 .hr1 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbow.gif');}
 .hr2 {color:pink; padding:4px; border:ridge 1px #ffffff; border-radius:15px; background-image:url('rainbowflip.gif');}
