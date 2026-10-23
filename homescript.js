@@ -1,12 +1,12 @@
 //Buttons
 var Buttons1 = document.querySelector('#ButtonsTop').onclick = () => {ToTop(); {ButtonSoundTop()}};
-var Buttons1 = document.querySelector('#Buttons1').onclick = () => {fadeOut(iframe, 250); {setTimeout(HomeButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNameHome, 1000)}};
-var Buttons2 = document.querySelector('#Buttons2').onclick = () => {fadeOut(iframe, 250); {setTimeout(AboutButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNameAbout, 1000)}};
-var Buttons3 = document.querySelector('#Buttons3').onclick = () => {fadeOut(iframe, 250); {setTimeout(ContactButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNameContact, 1000)}};
-var Buttons4 = document.querySelector('#Buttons4').onclick = () => {fadeOut(iframe, 250); {setTimeout(PostsButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNamePosts, 1000)}};
-var Buttons5 = document.querySelector('#Buttons5').onclick = () => {fadeOut(iframe, 250); {setTimeout(PhotogButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNamePhotography, 1000)}};
-var Buttons6 = document.querySelector('#Buttons6').onclick = () => {fadeOut(iframe, 250); {setTimeout(GuestbookButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNameGuestbook, 1000)}};
-var Buttons7 = document.querySelector('#Buttons7').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinksButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNameLinks, 1000)}};
+var Buttons1 = document.querySelector('#Buttons1').onclick = () => {fadeOut(iframe, 250); {setTimeout(HomeButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNameHome, 1000)}};
+var Buttons2 = document.querySelector('#Buttons2').onclick = () => {fadeOut(iframe, 250); {setTimeout(AboutButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNameAbout, 1000)}};
+var Buttons3 = document.querySelector('#Buttons3').onclick = () => {fadeOut(iframe, 250); {setTimeout(ContactButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNameContact, 1000)}};
+var Buttons4 = document.querySelector('#Buttons4').onclick = () => {fadeOut(iframe, 250); {setTimeout(PostsButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNamePosts, 1000)}};
+var Buttons5 = document.querySelector('#Buttons5').onclick = () => {fadeOut(iframe, 250); {setTimeout(PhotogButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNamePhotography, 1000)}};
+var Buttons6 = document.querySelector('#Buttons6').onclick = () => {fadeOut(iframe, 250); {setTimeout(GuestbookButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNameGuestbook, 1000)}};
+var Buttons7 = document.querySelector('#Buttons7').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinksButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNameLinks, 1000)}};
 var Buttons8 = document.querySelector('#Buttons8').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinuxguideButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNameLinuxGuide, 1000)}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./evergrowingnight.mp3'; {ButtonSoundMP3Select()}};
