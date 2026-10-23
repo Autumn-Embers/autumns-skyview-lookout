@@ -59,6 +59,10 @@ table {margin-left:-8px; margin-right:-8px; width:100%;}
 
 .hr9 {padding:4px; border:ridge 0px #ffffff; border-radius:15px; background-image:url('rainbow.gif'); margin-top:.5px; margin-bottom:0%;}
 
+/*Back To Top Button*/
+.buttontop {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:175%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-top:1px; font-family:Monospace; cursor:pointer;}
+
+.buttontop:hover {background-color:rgba(20,20,20,0.75); transform:scale(0.95); border-radius:15px; opacity:1.0; cursor:pointer;}
 /*Iframe Buttons*/
 .button1 {transition:border-radius 0.2s ease; transform:0.2s; background-color:transparent; padding:6px 6px; color:#9B111E; opacity:1.0; font-size:125%; width:100%; text-align:center; display:inline-block; border:ridge 1px #0F52BA; margin-left:-.5px; margin-bottom:1px; font-family:Pixel; cursor:pointer;}
 
