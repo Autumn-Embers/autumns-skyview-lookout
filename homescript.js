@@ -94,7 +94,7 @@ function ButtonSoundMP3pp() {var Buttonsfxmp3pp = document.getElementById("Butto
 //End Buttons Functions
 //iframe fade in
 const PagesIframe = document.getElementById('Pages');
-PagesIframe.addEventListener("load", () => {document.getElementById('Pages').style.opacity = '1';});
+PagesIframe.addEventListener("load", () => {document.getElementById('Pages').style.opacity = '1'; {var Buttonsfxpage = document.getElementById("ButtonSound1"); Buttonsfxpage.autoplay = 'true'; Buttonsfxpage.load()};});
 //End iframe fade in
 //iframe fade outs
 var iframe = document.getElementById('Pages');
@@ -116,10 +116,10 @@ const currentTimeDisplay = document.getElementById("current-time");
 const totalTimeDisplay = document.getElementById("total-time");
 const loopButton = document.getElementById("loop-MP3-button");
 let isPlaying = false;
-playPauseButton.addEventListener("click", () => {if (isPlaying) {audio.pause(); playPauseButton.textContent = "Play";} else {audio.play(); playPauseButton.textContent = "Pause";} isPlaying = !isPlaying;});
+playPauseButton.addEventListener("click", () => {{ButtonSoundMP3pp();}if (isPlaying) {audio.pause(); playPauseButton.textContent = "Play";} else {audio.play(); playPauseButton.textContent = "Pause";} isPlaying = !isPlaying;});
 volumeControl.addEventListener("input", () => {audio.volume = volumeControl.value;});
 audio.addEventListener("timeupdate", () => {const currentTime = audio.currentTime; const duration = audio.duration; const currentMinutes = Math.floor(currentTime / 60); const currentSeconds = Math.floor(currentTime % 60); const totalMinutes = Math.floor(duration / 60); const totalSeconds = Math.floor(duration % 60); currentTimeDisplay.textContent = `${currentMinutes}:${currentSeconds < 10 ? '0' : ''}${currentSeconds}`; totalTimeDisplay.textContent = `${totalMinutes}:${totalSeconds < 10 ? '0' : ''}${totalSeconds}`; const progress = (currentTime / duration) * 100; progressBar.style.width = `${progress}%`;}); audio.loop = false;
-loopButton.addEventListener("click", () => {audio.loop = !audio.loop; if (audio.loop) {loopButton.textContent = "Looping";} else {loopButton.textContent = "Loop";}});
+loopButton.addEventListener("click", () => {{ButtonSoundMP3pp();}audio.loop = !audio.loop; if (audio.loop) {loopButton.textContent = "Looping";} else {loopButton.textContent = "Loop";}});
 //End audio player Function
 //Calc Functions
 let currentInput = ''; let currentOperation = ''; let previousInput = '';
