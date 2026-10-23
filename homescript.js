@@ -101,7 +101,7 @@ var iframe = document.getElementById('Pages');
 function fadeOut(el, duration) {var step = 10 / duration, opacity = 1; function next() {if (opacity <= 0) {return;} el.style.opacity = ( opacity -= step ); setTimeout(next, 10);} next();}
 //End iframe fade outs
 //Dropdowns for mp3 player
-function myFunction() {document.getElementById("myDropdown").classList.toggle("show"); {ButtonSoundMP3()};}
+function DropdownMP3() {document.getElementById("myDropdown").classList.toggle("show"); {ButtonSoundMP3()};}
 window.onclick = function(event) {if (!event.target.matches('.dropbtn')) {var dropdowns = document.getElementsByClassName("dropdown-content"); var i; for (i = 0; i < dropdowns.length; i++) {var openDropdown = dropdowns[i]; if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}};
 //End Dropdowns for mp3 player
 //Start Clock function 
