@@ -8,14 +8,14 @@ body {background-color:#000006; background-image:url('stars.gif'); background-si
 @Font-face {font-family:Pixel; src:url(./PixeloidSans.ttf);}
 
 /*Headings*/
-.header1 {margin:-6px -6px 0px -6px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #87CEEB; border-radius:15px; background-color:#000000; background-image:url('rain.gif'); background-size:fill; font-family:Pixel;}
+.header1 {margin:-6px -6px 0px -6px; text-align:center; text-shadow:2px 2px hotpink; color:#FFFF33; padding:8px; font-size:300%; border: 2px ridge #00ff00; border-radius:15px; background-color:#000000; background-image:url('rain.gif'); background-size:fill; font-family:Pixel;}
 
 /*Tables*/
 table {margin-left:-8px; margin-right:-8px; width:100%;}
 
-.td1 {color:#9B111E; Width:300px; height:2200px; vertical-align:top; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:Pixel;}
+.td1 {color:#9B111E; Width:300px; height:2200px; vertical-align:top; border: 2px ridge #00ff00; border-radius:5px 5px 15px 15px; background-color:#000000; background-image:url('fallingcomets.gif'); background-size:fill; font-family:Pixel;}
 
-.td2 {color:#0F52BA;text-align:center; width:100.35%; height:2200px; vertical-align:top; display:inline-block; border: 2px ridge #87CEEB; border-radius:5px 5px 15px 15px; font-family:Pixel;}
+.td2 {color:#0F52BA;text-align:center; width:100.35%; height:2200px; vertical-align:top; display:inline-block; border: 2px ridge #00ff00; border-radius:5px 5px 15px 15px; font-family:Pixel;}
 
 /*Iframes*/
 .iframe1 {width:75%; height:98%; margin-top:.5%; border:ridge 10px #800080; border-radius:20px; opacity:0; transition-duration:500ms; transition-property:opacity; transition-timing-function:ease-in-out;}
