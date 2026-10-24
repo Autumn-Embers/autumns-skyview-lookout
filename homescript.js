@@ -20,11 +20,11 @@ var MP3Buttons1 = document.querySelector('#MP3Buttons9').onclick = () => {docume
 var MP3Buttons1 = document.querySelector('#MP3Buttons10').onclick = () => {document.getElementById('MP3Audio').src='./sevenseas.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons11').onclick = () => {document.getElementById('MP3Audio').src='./sealedvessel.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons12').onclick = () => {document.getElementById('MP3Audio').src='./flowerman.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons13').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons14').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons15').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons16').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons17').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons13').onclick = () => {document.getElementById('MP3Audio').src='./pigstep.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons14').onclick = () => {document.getElementById('MP3Audio').src='./Archie&MaxieTheme.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons15').onclick = () => {document.getElementById('MP3Audio').src='./sevenseas.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons16').onclick = () => {document.getElementById('MP3Audio').src='./sealedvessel.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons17').onclick = () => {document.getElementById('MP3Audio').src='./flowerman.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3ButtonsFUH').onclick = () => {document.getElementById('MP3Audio').src='./fuhhh.mp3'; {ButtonSoundMP3Select()}};
 var Buttonscrton = document.querySelector('#Buttonscrtonoff').onclick = () => {Togglecrt(); {ButtonSoundCRT()}};
 var D4Button = document.querySelector('#ButtonsD4').onclick = () => {setTimeout(D4Generate, 1000); {ButtonSound3()}};
