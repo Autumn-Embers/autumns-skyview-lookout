@@ -1,4 +1,4 @@
-body {background-image:url('fallingleaves.gif'); background-size:fill; background-color:rgba(25,25,25,1.0); color:#72FF13; font-family:Pixel; text-align:center;}
+body {background-image:url('green.gif'); background-size:cover; background-position:center; background-color:rgba(25,25,25,1.0); color:#72FF13; font-family:Pixel; text-align:center;}
 @Font-face {font-family:OldPixel; src:url(./pcsenior.ttf);}
 @Font-face {font-family:Pixel; src:url(./PixeloidSans.ttf);}
 .p1 {color:#dddddd; font-family:Pixel; text-align:center; font-size:150%; text-shadow:2px 2px #777777;}
