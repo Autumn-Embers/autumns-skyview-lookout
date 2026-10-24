@@ -8,11 +8,11 @@ var Buttons5 = document.querySelector('#Buttons5').onclick = () => {fadeOut(ifra
 var Buttons6 = document.querySelector('#Buttons6').onclick = () => {fadeOut(iframe, 250); {setTimeout(GuestbookButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNameGuestbook, 1000)}};
 var Buttons7 = document.querySelector('#Buttons7').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinksButton, 1000)} {ButtonSound2()} {setTimeout(ChangeLinkNameLinks, 1000)}};
 var Buttons8 = document.querySelector('#Buttons8').onclick = () => {fadeOut(iframe, 250); {setTimeout(LinuxguideButton, 1000)}; {ButtonSound2()}; {setTimeout(ChangeLinkNameLinuxGuide, 1000)}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./evergrowingnight.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons1').onclick = () => {document.getElementById('MP3Audio').src='./killswitch.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons2').onclick = () => {document.getElementById('MP3Audio').src='./yararara.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons3').onclick = () => {document.getElementById('MP3Audio').src='./godonlyknows.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons4').onclick = () => {document.getElementById('MP3Audio').src='./killswitch.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons5').onclick = () => {document.getElementById('MP3Audio').src='./yararara.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons4').onclick = () => {document.getElementById('MP3Audio').src='./evergrowingnight.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons5').onclick = () => {document.getElementById('MP3Audio').src='./beneaththevirtualsky.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons6').onclick = () => {document.getElementById('MP3Audio').src='./freefall.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons7').onclick = () => {document.getElementById('MP3Audio').src='./mewmewmagic.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons8').onclick = () => {document.getElementById('MP3Audio').src='./pigstep.mp3'; {ButtonSoundMP3Select()}};
