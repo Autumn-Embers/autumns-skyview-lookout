@@ -18,8 +18,8 @@ var MP3Buttons1 = document.querySelector('#MP3Buttons7').onclick = () => {docume
 var MP3Buttons1 = document.querySelector('#MP3Buttons8').onclick = () => {document.getElementById('MP3Audio').src='./freefall.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons9').onclick = () => {document.getElementById('MP3Audio').src='./streetcat.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons10').onclick = () => {document.getElementById('MP3Audio').src='./birdbrain.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons11').onclick = () => {document.getElementById('MP3Audio').src='./mewmewmagic.mp3'; {ButtonSoundMP3Select()}};
-var MP3Buttons1 = document.querySelector('#MP3Buttons12').onclick = () => {document.getElementById('MP3Audio').src=''; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons11').onclick = () => {document.getElementById('MP3Audio').src='./q&a.mp3'; {ButtonSoundMP3Select()}};
+var MP3Buttons1 = document.querySelector('#MP3Buttons12').onclick = () => {document.getElementById('MP3Audio').src='./mewmewmagic.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons13').onclick = () => {document.getElementById('MP3Audio').src='./pigstep.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons14').onclick = () => {document.getElementById('MP3Audio').src='./Archie&MaxieTheme.mp3'; {ButtonSoundMP3Select()}};
 var MP3Buttons1 = document.querySelector('#MP3Buttons15').onclick = () => {document.getElementById('MP3Audio').src='./sevenseas.mp3'; {ButtonSoundMP3Select()}};
